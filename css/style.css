@@ -1,0 +1,524 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	border: none;
+	outline: none;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/*NAV*/
+.headercontenedor{
+    width: 95%;
+    height: 140px;
+    margin: auto;
+    background: #fff;
+}
+.contenedor_superior{
+    
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.contendor_superior_logo{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    color: #000;
+}
+
+.contenedor_superior_selecciones{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.contenedor_superior_selecciones_arriba ul{
+    display: flex;
+    flex-direction: row nowrap;
+    align-items: flex-end;
+    font-size: 13px;
+}
+.contenedor_superior_selecciones_arriba ul li{
+    padding: 10px;
+}
+
+.contenedor_superior_selecciones_abajo{
+    width: 80%;
+    display: flex;
+    flex-direction: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.contenedor_superior_selecciones_abajo ul{
+    display: flex;
+    flex-direction: row nowrap;
+    font-size: 14px;
+}
+
+.contenedor_superior_selecciones_abajo ul li{
+    padding: 10px;
+}
+
+/*APARTADO DE ANUNCIO COVID*/
+
+.contenedor_inferior{
+    background:#ebedee;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.close i{
+    color:#ede734;
+
+}
+/*secciones*/
+
+.articlecontenedor{
+    width: 95%;
+    margin: auto;
+}
+/*seccion1*/
+.contenedor_section1{
+    width: 100%;
+    height: 600px;
+    font-size: 25px;
+    color: #fff;
+    position: relative;
+    
+}
+.contenedor_section1_video video{
+    width: 100%;
+    background-position: center;
+	background-attachment: contain;
+	background-size: cover;
+}
+
+.contenedor_section1_descubre{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top:calc(50% - 88px);
+}
+
+.contenedor_section1_boton button{
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    padding: 10px;
+    background: #fff;
+}
+
+/*seccion2*/
+.contenedor_section2{
+   
+    width: 100%vh;
+    height: 320px;
+    margin: auto;
+    font-size: 20px;
+    color: #fff;
+    position: relative;
+}
+
+.contenedor_section2_contenido{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top:calc(50% - 88px);
+}
+/*seccion3*/
+.contenedor_section3{
+    background:#fff;
+    height: 350px;
+}
+.backgroundmiddle{
+    background-image: url(../images/walkpaperrosayamarillo.jfif);
+    height: 150px;
+}
+/*seccion4*/
+.contenedor_section4{
+    background: #fff;
+    height: 230px;
+}
+.contenedor_section4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contenedor_section4_popular{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contenedor_section4_popular_espacio{
+    padding: 10px;
+}
+.contenedor_section4_popular_botones{
+    display: flex;
+    flex-direction: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor_section4_popular_botones a{
+    text-decoration: none;
+    margin: 5px;
+    background: #fff;
+    padding: 10px;
+    border: solid 1px #000;
+}
+.contenedor_section4_popular_texto{
+    font-size: 20px;
+    font-weight: 400px;
+}
+
+/*seccion5*/
+.contenedor_section5{
+    background:#fff;
+    height: 450px;
+}
+
+.contenedor_section5_opciones_contenedor{
+    height: 75px;
+}
+.contenedor_section5_opciones_botones{
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 13px;
+}
+.contenedor_section5_opciones_botones button{
+    background: none;
+    margin-right: 20px;
+}
+/*seccion6*/
+.contenedor_section6{
+    background:#fff;
+    height: 500px;
+}
+
+.contenedor_section6_titulo{
+    height:62px ;
+    display: flex;
+    flex-direction: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.contenedor_section6_titulo_novedades{
+    font-size: 25px;
+}
+.contenedor_section6_titulo_vertodo{
+    font-size: 14px;
+
+}
+
+
+/*seccion7*/
+.contenedor_section7{
+    background: #ebedee;
+    height: 130px;
+}
+
+.contenedor_section7_equipos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor_section7_equipos_logos{
+    display: flex;
+    flex-direction: row nowrap;
+    justify-content: center;
+}
+
+.contenedor_section7_equipos_texto{
+    padding: 20px;
+    font-size: 13px;
+}
+.contenedor_section7_equipos_logos a{
+    width: 51px;
+    height: 44px;
+    background-position: center;
+	background-attachment: contain;
+	background-size: cover;
+
+}
+.contenedor_section7_equipos_logos a div img{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+}
+
+
+/*seccion8*/
+.contenedor_section8{
+    background: #fff;
+    height: 550px;
+}
+.titulo_tend{
+    margin-top: 50px;
+    font-size: 25px;
+    height: 70px;
+}
+.carousel4__elemento img{
+    width: 260px;
+    height: 348px;
+    background-position: center;
+	background-attachment: contain;
+	background-size: cover;
+    margin-right: 5px;
+}
+/*sección9*/
+.contenedor_section9{
+    background:#fff;
+    height: 450px;
+}
+
+/*seccion 10*/
+.contenedor_section10{
+    background:#ebedee;
+    width: 80%;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: row nowrap;
+    font-size: 14px;
+    align-items: center;
+}
+.contenedor_section10 div{
+    height: 250px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.contenedor_section10 div h2{
+    font-weight: 200px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.contenedor_section10 .izquierda{
+    margin-left: 90px;
+}
+
+.contenedor_section10 div .texto{
+    text-align:justify;
+}
+
+/*seccion 11*/
+.contenedor_section11{
+    background:#fff;
+    height: 500px;
+}
+
+.titulo{
+    width: 100%;
+    height: 50px;
+}
+
+.titulo h3{
+   font-size: 25px;
+}
+/*footer*/
+
+.footercontenedor{
+    width: 95%;
+    margin: auto;
+    background:#fff;
+}
+
+/*descuento*/
+
+.contenedor_pie_descuento{
+    background:#ede734;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contenedor_pie_descuento_centrado{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row nowrap;
+    justify-content: center;
+}
+
+.contenedor_pie_descuento_centrado div{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor_pie_descuento_centrado div h4{
+    padding: 50px;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor_pie_descuento_centrado_boton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor_pie_descuento_centrado_boton button{
+    color: #fff;
+    padding: 30px;
+    background: #000;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    font-size: 12px;
+   
+}
+
+/*listas*/
+.contenedor_pie_listas_centrado{
+    background:#fff;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;;
+    margin: auto;
+}
+
+
+.contenedor_listas{
+    display: flex;
+    flex-direction: row nowrap;
+    justify-content: space-around;
+}
+
+.contenedor_listas h5{
+    font-size: 12px;
+}
+.contenedor_listas li{
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+.contenedor_listas ul{
+   margin-right: 20px;
+}
+    
+
+/*barra final*/
+.barrapie{
+    background: #363738;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+
+.barrapie_centrado{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: row nowrap;
+    justify-content: space-between;
+}
+.mexico a img{
+    width: 20px;
+    height: 15px;
+    background-position: center;
+	background-attachment: contain;
+	background-size: cover;
+    margin-right: 5px;
+}
+
+.copy ol{
+    display: flex;
+    flex-direction: row nowrap;
+}
+.copy ol li{
+    margin-right: 10px;
+} 
+
+/*carousel*/
+
+.carousel__contenedor{
+    position: relative;
+}
+
+/*botones*/
+
+.anterior{ 
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 52px;
+    top: calc(50% - 35px);
+    cursor: pointer;
+    line-height: 30px;
+    text-align: center;
+    background: #fff;
+    border: 1px solid #000;
+    left: 0;
+    z-index: 5;
+}
+
+.anterior:hover{
+    background: #000;
+    color:#fff;
+}
+.siguiente{
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 52px;
+    top: calc(50% - 35px);
+    cursor: pointer;
+    line-height: 30px;
+    text-align: center;
+    background: #fff;
+    border: 1px solid #000;
+    right: 0;
+}
+.siguiente:hover{
+    background: #000;
+    color:#fff;
+}
+
+/*elementos*/
+
+.elemento{
+    margin-right: 10px;
+}
+
+.elemento:hover{
+    border: 1px solid #000;
+}
+
+/*indicadores*/
+.indicadores{
+    margin-top: 50px;
+}
+.indicadores .glider-dot {
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: #000;
+    border-radius: 0;
+    margin: 3px;
+    z-index: 10;
+}
+
+.indicadores .glider-dot:hover{
+    height: 4px;
+}
+
